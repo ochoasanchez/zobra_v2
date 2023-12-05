@@ -6,7 +6,7 @@ import FooterBackground from '../assets/mountain_shape-inverted.svg';
 
 const Footer = () => {
     return (
-        <footer className="mt-8 h-72 flex flex-col justify-between items-center">
+        <footer className="mt-12 h-72 flex flex-col justify-between items-center">
             <img className="w-full select-none" src={FooterBackground} alt="Mountain Shape" />
             <div className="flex justify-center gap-x-8">
                 <img className='footer-icon' src={InstagramLogo} />
