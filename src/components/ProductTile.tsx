@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom"
 import ButtonLink from "./ButtonLink";
 
-type ProducTileProps = {
+type ProductTileProps = {
     product: Product,
 }
 
-const ProductTile = ({ product }: ProducTileProps) => {
+const ProductTile = ({ product }: ProductTileProps) => {
     return (
         <div className='w-4/12' key={`zb-${product.id}`}>
             <div className='transition-all hover:scale-105'>

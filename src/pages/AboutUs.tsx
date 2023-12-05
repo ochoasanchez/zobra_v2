@@ -1,14 +1,14 @@
 import PageHeader from "../components/PageHeader";
 
-export function Contact() {
+export function AboutUs() {
     return (
         <>
             <PageHeader />
             <div className="flex w-screen">
-                <h1 className="mt-6 mx-auto">Contact</h1>
+                <h1 className="mt-6 mx-auto">About us</h1>
             </div>
         </>
     )
 }
 
-export default Contact;
+export default AboutUs;

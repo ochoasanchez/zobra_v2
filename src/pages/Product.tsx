@@ -1,12 +1,13 @@
 import { useParams } from "react-router-dom";
-import Navbar from "../components/Navbar";
-import {products} from "../data.constants"
+import {products, cardContent/*, contact*/} from "../data.constants"
 import Footer from "../components/Footer";
-import Divider from "../components/Divider";
 import ProductList from "../components/ProductList";
+// import PageSection from "../components/PageSection";
+import PageSectionWithCard from "../components/PageSectionWithCard";
+import PageHeader from "../components/PageHeader";
 
 export function Product() {
-    
+  
     const { slug } = useParams();
 
     const product = products.find((element) => element.slug === slug);
@@ -36,11 +37,7 @@ export function Product() {
 
   return (
     <>
-        <header className="w-full">
-            <Navbar />
-            <img className="mx-auto border-black w-64 my-4" src="../src/assets/zobra.svg" />
-            <Divider />
-        </header>  
+        <PageHeader />  
         <main> 
           <div className="flex w-4/5 py-12 mt-4 mx-auto">
             <div className="w-6/12">
@@ -52,7 +49,9 @@ export function Product() {
               <p className="mt-4">{product && product.description}</p>
             </div>
           </div>
+          <PageSectionWithCard item={cardContent} imgPosition="left" />
           <ProductList />
+          {/* <PageSection item={contact} imgPosition='top' imgSize='small'/> */}
         </main>
         <Footer />  
     </>

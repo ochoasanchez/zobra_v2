@@ -13,7 +13,7 @@ export const item2: Item = {
         url: './src/assets/grapes.jpg',
         alt: 'Grape trees in a vineyard',
     },
-    content: '<h2 class="mb-4">Bodega familiar</h2><p>Viñedos y bodega Zobra se funda en 1949 por Manolo Zobra, siguiendo una tradición familiar de generaciones dedicadas al cultivo de la vid y la elaboración de vino. En la actualidad la 2ª y 3ª generación de la familia Zobra rigen la bodega preservando la esencia con la que se fundó.</p><h2 class="mb-4 mt-6">Tradición, innovación y buen hacer</h2><p>La filosofía de la bodega se sustenta en elaborar vinos que expresen el carácter y la identidad de donde provienen, con un profundo respeto hacia el terruño y a las variedades de uva autóctonas aunando tradición, innovación y buen hacer.</p>',
+    content: '<h2>Bodega familiar</h2><p class="mt-4">Viñedos y bodega Zobra se funda en 1949 por Manolo Zobra, siguiendo una tradición familiar de generaciones dedicadas al cultivo de la vid y la elaboración de vino. En la actualidad la 2ª y 3ª generación de la familia Zobra rigen la bodega preservando la esencia con la que se fundó.</p><h2 class="mt-6">Tradición, innovación y buen hacer</h2><p class="mt-4">La filosofía de la bodega se sustenta en elaborar vinos que expresen el carácter y la identidad de donde provienen, con un profundo respeto hacia el terruño y a las variedades de uva autóctonas aunando tradición, innovación y buen hacer.</p>',
 }
 
 export const item3: Item = {
@@ -22,7 +22,25 @@ export const item3: Item = {
         url: './src/assets/cellar.jpg',
         alt: 'Wine cellar',
     },
-    content: '<h2 class="mb-4">Viticultura de precisión</h2><p>La bodega cuenta con 38 hectáreas de viñedo propio de las variedades autóctonas Prieto Picudo y Albarín Blanco, en las cuales se desarrolla  una viticultura de precisión para obtener uvas de la mejor calidad. Los viñedos se asientan sobre suelos cuaternarios con gran cantidad de cantos rodados que acumulan el calor del sol durante el día para ayudar a la planta a soportar las bajas temperaturas de la noche así como a mejorar la maduración de la uva. En la actualidad la bodega combina unas modernas instalaciones para la elaboración de sus vinos con una cueva de más de 300 años de antigüedad donde se ubica el parque de barricas.</p>',
+    content: '<h2>Viticultura de precisión</h2><p class="mt-6">La bodega cuenta con 38 hectáreas de viñedo propio de las variedades autóctonas Prieto Picudo y Albarín Blanco, en las cuales se desarrolla  una viticultura de precisión para obtener uvas de la mejor calidad. Los viñedos se asientan sobre suelos cuaternarios con gran cantidad de cantos rodados que acumulan el calor del sol durante el día para ayudar a la planta a soportar las bajas temperaturas de la noche así como a mejorar la maduración de la uva. En la actualidad la bodega combina unas modernas instalaciones para la elaboración de sus vinos con una cueva de más de 300 años de antigüedad donde se ubica el parque de barricas.</p>',
+}
+
+export const contact: Item = {
+    title: undefined,
+    img: { 
+        url: './src/assets/zobra_text.svg',
+        alt: 'Zobra Taste Timeless Logo',
+    },
+    content: '<div class="flex text-center mt-12 pb-6"><div class="w-4/12"><h3 class="text-2xl">Our address</h3><p class="mt-2">Calle Piqueras 98<br>Logrono, Spain</p></div><div class="w-4/12"><h3 class="text-2xl">Book a tour</h3><p class="mt-2">Monday to Saturday +33 123 456 789<br /> or <a class="text-yellow-600 hover:text-yellow-600 hover:underline" href="./contact">click here.</a></p></div><div class="w-4/12"><h3 class="text-2xl">Distribution</h3><p class="mt-2">For inquiries message us at<br>distribute@zobra.es</p></div></div>',
+}
+
+export const cardContent: Item = {
+    title: undefined,
+    img: { 
+        url: '../src/assets/glass.jpg',
+        alt: 'Hand holding a tilted glass of wine',
+    },
+    content: '<div class="text-center flex flex-col"><small class="text-yellow-600 uppercase">Our vineyard</small><h2 class="mt-2">Tasting & Tours</h2><p class="mt-4">Embark on a journey of discovery as you explore the heart of our vineyard and uncover the secrets behind our exquisite wines. Our passionate and knowledgeable guides will lead you through the picturesque vineyards, where you will learn about the meticulous grape-growing process and the art of winemaking.</p></div>',
 }
 
 export const products: Product[] = [{

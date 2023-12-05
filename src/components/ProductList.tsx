@@ -9,9 +9,9 @@ const ProductList = () => {
     return (
         <>
             <Divider />
-            <section className="flex md:w-4/5 mt-6 py-6 mx-auto justify-between gap-x-8">
+            <section className="page-section flex justify-between gap-x-8">
                 {products.map((product) => {
-                    return <ProductTile product={product} />
+                    return <ProductTile product={product} key={`zb-${product.id}`} />
                 })}
             </section>
         </>

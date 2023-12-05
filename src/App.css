@@ -17,4 +17,7 @@
   .footer-icon {
     @apply w-14 h-14 p-2 hover:bg-yellow-600 hover:rounded-3xl transition-all duration-300 ease-in;
   }
+  .page-section{
+    @apply md:w-4/5 3xl:w-3/5 mx-auto mt-12;
+  }
 }
