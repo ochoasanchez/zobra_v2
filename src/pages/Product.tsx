@@ -1,10 +1,10 @@
 import { useParams } from "react-router-dom";
-import {products, cardContent/*, contact*/} from "../data.constants"
+import {products, cardContent, contact2} from "../data.constants"
 import Footer from "../components/Footer";
 import ProductList from "../components/ProductList";
-// import PageSection from "../components/PageSection";
 import PageSectionWithCard from "../components/PageSectionWithCard";
 import PageHeader from "../components/PageHeader";
+import PageSection from "../components/PageSection";
 
 export function Product() {
   
@@ -31,7 +31,7 @@ export function Product() {
           </div>
           <PageSectionWithCard item={cardContent} imgPosition="left" />
           <ProductList />
-          {/* <PageSection item={contact} imgPosition='top' imgSize='small'/> */}
+          <PageSection item={contact2} imgPosition='top' imgSize='small'/>
         </main>
         <Footer />  
     </>

@@ -4,7 +4,7 @@ export const item1: Item = {
         url: './src/assets/bottles.jpg',
         alt: 'Two bottles of chardonnay wine',
     },
-    content:  '<p>Zobra tiene el reconocimiento de ser uno de los impulsores de la D.O. La Rioja, apostando por el desarrollo de las variedades autóctonas. La bodega está ubicada en el pueblo Servilla de La Rioja, próximo al Camino de Santiago, y famoso por sus cuevas centenarias donde antaño se elaboraba vino.</p>',
+    content:  '<p>Zobra is recognized as one of the pioneers of the DOCa La Rioja, betting on the development of native varieties. The winery is located in the town of Servilla de La Rioja, near the Camino de Santiago, and is famous for its centuries-old caves where wine was once made.</p>',
 }
 
 export const item2: Item = {
@@ -13,7 +13,7 @@ export const item2: Item = {
         url: './src/assets/grapes.jpg',
         alt: 'Grape trees in a vineyard',
     },
-    content: '<h2>Bodega familiar</h2><p class="mt-4">Viñedos y bodega Zobra se funda en 1949 por Manolo Zobra, siguiendo una tradición familiar de generaciones dedicadas al cultivo de la vid y la elaboración de vino. En la actualidad la 2ª y 3ª generación de la familia Zobra rigen la bodega preservando la esencia con la que se fundó.</p><h2 class="mt-6">Tradición, innovación y buen hacer</h2><p class="mt-4">La filosofía de la bodega se sustenta en elaborar vinos que expresen el carácter y la identidad de donde provienen, con un profundo respeto hacia el terruño y a las variedades de uva autóctonas aunando tradición, innovación y buen hacer.</p>',
+    content: "<h2>Family winery</h2><p class='mt-4'>Viñedos y bodega Zobra was founded in 1949 by Manolo Zobra, following a family tradition of generations dedicated to the cultivation of the vine and the production of wine. Currently, the 2nd and 3rd generation of the Zobra family manage the winery preserving the essence with which it was founded.</p><h2 class='mt-6'>Tradition and good craftsmanship</h2><p class='mt-4'>The winery's philosophy is based on the production of wines that express the character and identity of where they come from, with a deep respect for the terroir and the native grape varieties, combining tradition, innovation and good craftsmanship.</p>",
 }
 
 export const item3: Item = {
@@ -22,7 +22,7 @@ export const item3: Item = {
         url: './src/assets/cellar.jpg',
         alt: 'Wine cellar',
     },
-    content: '<h2>Viticultura de precisión</h2><p class="mt-6">La bodega cuenta con 38 hectáreas de viñedo propio de las variedades autóctonas Prieto Picudo y Albarín Blanco, en las cuales se desarrolla  una viticultura de precisión para obtener uvas de la mejor calidad. Los viñedos se asientan sobre suelos cuaternarios con gran cantidad de cantos rodados que acumulan el calor del sol durante el día para ayudar a la planta a soportar las bajas temperaturas de la noche así como a mejorar la maduración de la uva. En la actualidad la bodega combina unas modernas instalaciones para la elaboración de sus vinos con una cueva de más de 300 años de antigüedad donde se ubica el parque de barricas.</p>',
+    content: '<h2>Precision viticulture</h2><p class="mt-6">The winery has 38 hectares of its own vineyards of the native varieties Prieto Picudo and Albarín Blanco, in which precision viticulture is developed to obtain grapes of the highest quality. The vineyards are located on Quaternary soils with a large amount of rounded stones that accumulate the heat of the sun during the day to help the plant withstand the low temperatures of the night as well as improve the maturation of the grape. Currently, the winery combines modern facilities for the production of its wines with a cave over 300 years old where the barrel park is located.</p>',
 }
 
 export const contact: Item = {
@@ -31,7 +31,16 @@ export const contact: Item = {
         url: './src/assets/zobra_text.svg',
         alt: 'Zobra Taste Timeless Logo',
     },
-    content: '<div class="flex text-center mt-12 pb-6"><div class="w-4/12"><h3 class="text-2xl">Our address</h3><p class="mt-2">Calle Piqueras 98<br>Logrono, Spain</p></div><div class="w-4/12"><h3 class="text-2xl">Book a tour</h3><p class="mt-2">Monday to Saturday +33 123 456 789<br /> or <a class="text-yellow-600 hover:text-yellow-600 hover:underline" href="./contact">click here.</a></p></div><div class="w-4/12"><h3 class="text-2xl">Distribution</h3><p class="mt-2">For inquiries message us at<br>distribute@zobra.es</p></div></div>',
+    content: '<div class="flex text-center mt-12 pb-6 gap-x-36"><div class="w-4/12"><h3 class="text-2xl">Our address</h3><p class="mt-2">Calle Piqueras 98<br>Logrono, Spain</p></div><div class="w-4/12"><h3 class="text-2xl">Book a tour</h3><p class="mt-2">Monday to Saturday +33 123 456 789<br /> or <a class="text-yellow-600 hover:text-yellow-600 hover:underline" href="./contact">click here.</a></p></div><div class="w-4/12"><h3 class="text-2xl">Distribution</h3><p class="mt-2">For inquiries message us at<br>distribute@zobra.es</p></div></div>',
+}
+
+export const contact2: Item = {
+    title: undefined,
+    img: { 
+        url: '../src/assets/zobra_text.svg',
+        alt: 'Zobra Taste Timeless Logo',
+    },
+    content: '<div class="flex text-center mt-12 pb-6 gap-x-36"><div class="w-4/12"><h3 class="text-2xl">Our address</h3><p class="mt-2">Calle Piqueras 98<br>Logrono, Spain</p></div><div class="w-4/12"><h3 class="text-2xl">Book a tour</h3><p class="mt-2">Monday to Saturday +33 123 456 789<br /> or <a class="text-yellow-600 hover:text-yellow-600 hover:underline" href="./contact">click here.</a></p></div><div class="w-4/12"><h3 class="text-2xl">Distribution</h3><p class="mt-2">For inquiries message us at<br>distribute@zobra.es</p></div></div>',
 }
 
 export const cardContent: Item = {

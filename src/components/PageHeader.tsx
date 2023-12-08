@@ -6,7 +6,7 @@ const PageHeader = () => {
     return (
         <header className="w-full">
             <Navbar />
-              <Link to="/"><img className="mx-auto border-black w-64 my-4" src="../src/assets/zobra.svg" /></Link>
+              <Link to="/"><img className="mx-auto border-black w-64 mt-8" src="../src/assets/zobra.svg" /></Link>
             <Divider />
         </header>  
     )
