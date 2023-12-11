@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <nav className="w-full">
             <div className="lg:hidden flex flex-row p-4 justify-between">
-                <div id="hamburger">
+                <div>
                     <button
                         onClick={toggleMenu}
                         className="border-none focus:outline-none bg-transparent p-0"
