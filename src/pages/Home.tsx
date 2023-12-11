@@ -8,7 +8,7 @@ export function Home() {
 
   return (
     <>
-      <MainHeader />  
+      <MainHeader />   
       <main>
         <PageSection item={item1} imgPosition='top'/>
         <PageSection item={item2} imgPosition='left'/>

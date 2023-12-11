@@ -9,7 +9,7 @@ const ProductList = () => {
     return (
         <>
             <Divider />
-            <section className="page-section flex justify-between gap-x-8">
+            <section className="page-section flex flex-col md:flex-row justify-between gap-8">
                 {products.map((product) => {
                     return <ProductTile product={product} key={`zb-${product.id}`} />
                 })}

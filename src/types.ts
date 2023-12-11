@@ -1,9 +1,9 @@
 type Item = {
     title?: string,
     description?: string,
-    img: {
-        url: string,
-        alt: string,
+    img?: {
+        url?: string,
+        alt?: string,
     },
     content: string,
 }

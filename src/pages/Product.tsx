@@ -19,16 +19,16 @@ export function Product() {
     <>
         <PageHeader />  
         <main> 
-          <div className="page-section flex">
-            <div className="w-6/12">
+          <section className="page-section flex flex-col md:flex-row gap-y-4">
+            <div className="md:w-6/12">
               <img src={product && product.img} className="w-44 mx-auto"/>
             </div>
-            <div className="w-6/12">
+            <div className="md:w-6/12">
               <p className='text-yellow-600 uppercase font-bold'>{product && product.year}</p>
-              <h1 className="mt-4">{product && product.title}</h1>
+              <h1 className="mt-2">{product && product.title}</h1>
               <p className="mt-4 text-justify">{product && product.description}</p>
             </div>
-          </div>
+          </section>
           <PageSectionWithCard item={cardContent} imgPosition="left" />
           <ProductList />
           <PageSection item={contact2} imgPosition='top' imgSize='small'/>

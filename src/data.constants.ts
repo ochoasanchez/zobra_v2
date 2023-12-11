@@ -1,10 +1,9 @@
 export const item1: Item = {
-    title: '',
-    img: { 
-        url: './src/assets/bottles.jpg',
-        alt: 'Two bottles of chardonnay wine',
-    },
-    content:  '<p>Zobra is recognized as one of the pioneers of the DOCa La Rioja, betting on the development of native varieties. The winery is located in the town of Servilla de La Rioja, near the Camino de Santiago, and is famous for its centuries-old caves where wine was once made.</p>',
+    content:  '<h1 class="text-3xl md:text-5xl text-center md:text-left leading-tight">Zobra is recognized as one of the pioneers of the DOCa La Rioja, betting on the development of native varieties.',
+}
+
+export const item0: Item = {
+    content:  '<h1 class="text-8xl">Zobra is recognized as one of the pioneers of the DOCa La Rioja, betting on the development of native varieties. The winery is located in the town of Servilla de La Rioja, near the Camino de Santiago, and is famous for its centuries-old caves where wine was once made.</h1>',
 }
 
 export const item2: Item = {
@@ -13,11 +12,11 @@ export const item2: Item = {
         url: './src/assets/grapes.jpg',
         alt: 'Grape trees in a vineyard',
     },
-    content: "<h2>Family winery</h2><p class='mt-4'>Viñedos y bodega Zobra was founded in 1949 by Manolo Zobra, following a family tradition of generations dedicated to the cultivation of the vine and the production of wine. Currently, the 2nd and 3rd generation of the Zobra family manage the winery preserving the essence with which it was founded.</p><h2 class='mt-6'>Tradition and good craftsmanship</h2><p class='mt-4'>The winery's philosophy is based on the production of wines that express the character and identity of where they come from, with a deep respect for the terroir and the native grape varieties, combining tradition, innovation and good craftsmanship.</p>",
+    content: "<h2>Tradition and good craftsmanship</h2><p class='mt-4'>Viñedos y bodega Zobra was founded in 1949 by Manolo Zobra, following a family tradition of generations dedicated to the cultivation of the vine and the production of wine. Currently, the 2nd and 3rd generation of the Zobra family manage the winery preserving the essence with which it was founded.</p><p class='mt-4'>The winery's philosophy is based on the production of wines that express the character and identity of where they come from, with a deep respect for the terroir and the native grape varieties, combining tradition, innovation and good craftsmanship.</p>",
 }
 
 export const item3: Item = {
-    title: undefined,
+    title: 'Vineyard',
     img: { 
         url: './src/assets/cellar.jpg',
         alt: 'Wine cellar',
@@ -26,21 +25,21 @@ export const item3: Item = {
 }
 
 export const contact: Item = {
-    title: undefined,
+    title: 'About us',
     img: { 
         url: './src/assets/zobra_text.svg',
         alt: 'Zobra Taste Timeless Logo',
     },
-    content: '<div class="flex text-center mt-12 pb-6 gap-x-36"><div class="w-4/12"><h3 class="text-2xl">Our address</h3><p class="mt-2">Calle Piqueras 98<br>Logrono, Spain</p></div><div class="w-4/12"><h3 class="text-2xl">Book a tour</h3><p class="mt-2">Monday to Saturday +33 123 456 789<br /> or <a class="text-yellow-600 hover:text-yellow-600 hover:underline" href="./contact">click here.</a></p></div><div class="w-4/12"><h3 class="text-2xl">Distribution</h3><p class="mt-2">For inquiries message us at<br>distribute@zobra.es</p></div></div>',
+    content: '<div class="flex flex-col md:flex-row text-center mt-12 pb-6 gap-x-36 gap-y-12 items-center"><div class="md:w-4/12"><h3 class="text-2xl">Our address</h3><p class="mt-2 text-center">Calle Piqueras 98<br>Logrono, Spain</p></div><div class="md:w-4/12"><h3 class="text-2xl">Book a tour</h3><p class="mt-2 text-center">Monday to Saturday <br />+33 123 456 789<br /> or <a class="text-yellow-600 hover:text-yellow-600 hover:underline" href="./contact">click here.</a></p></div><div class="md:w-4/12"><h3 class="text-2xl">Distribution</h3><p class="mt-2 text-center">For inquiries message us at<br>distribute@zobra.es</p></div></div>',
 }
 
 export const contact2: Item = {
     title: undefined,
     img: { 
         url: '../src/assets/zobra_text.svg',
-        alt: 'Zobra Taste Timeless Logo',
+        alt: contact.img && contact.img.alt,
     },
-    content: '<div class="flex text-center mt-12 pb-6 gap-x-36"><div class="w-4/12"><h3 class="text-2xl">Our address</h3><p class="mt-2">Calle Piqueras 98<br>Logrono, Spain</p></div><div class="w-4/12"><h3 class="text-2xl">Book a tour</h3><p class="mt-2">Monday to Saturday +33 123 456 789<br /> or <a class="text-yellow-600 hover:text-yellow-600 hover:underline" href="./contact">click here.</a></p></div><div class="w-4/12"><h3 class="text-2xl">Distribution</h3><p class="mt-2">For inquiries message us at<br>distribute@zobra.es</p></div></div>',
+    content: contact.content,
 }
 
 export const cardContent: Item = {
