@@ -4,7 +4,7 @@ import Divider from './Divider';
 type PageSectionProps = {
     item: Item,
     title?: string,
-    imgPosition: 'top' | 'right' | 'left',
+    imgPosition?: 'top' | 'right' | 'left',
     imgSize?: 'large' | 'small',
     showDivider?: boolean,
 }
@@ -31,7 +31,7 @@ const PageSection = ({item, title, imgPosition, imgSize, showDivider = true}: Pa
             {shouldRenderDivider  && <Divider />}
             <section className="page-section">
                 { title && <h1 className="text-center lg:text-left text-6xl my-12">{title}</h1> }
-                <div dangerouslySetInnerHTML={markup} className='md:w-4/5 mt-6' />
+                <div dangerouslySetInnerHTML={markup} className='md:w-4/5 my-24' />
             </section>
         </>
     );

@@ -10,7 +10,7 @@ export function Home() {
     <>
       <MainHeader />   
       <main>
-        <PageSection item={item1} imgPosition='top'/>
+        <PageSection item={item1} />
         <PageSection item={item2} imgPosition='left'/>
         <PageSection item={item3} imgPosition='right'/>
         <ProductList />
