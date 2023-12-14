@@ -1,4 +1,5 @@
 import ContactForm from "../components/ContactForm";
+import Divider from "../components/Divider";
 import Footer from "../components/Footer";
 import PageHeader from "../components/PageHeader";
 import PageSection from "../components/PageSection";
@@ -9,6 +10,7 @@ export function Contact() {
         <>
             <PageHeader />
             <main>
+                <Divider />
                 <section className="page-section">
                     <div>
                         <h1 className="text-center md:text-left text-4xl md:text-6xl">Contact us</h1>

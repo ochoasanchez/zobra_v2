@@ -3,7 +3,7 @@ import FormInput from "./FormInput";
 
 const ContactForm = () => {
     return (
-        <form className="w-8/12">
+        <form className="lg:w-8/12">
             <FormInput name="Name" />
             <FormInput name="Email"/>
             <FormInput name="Phone" />
