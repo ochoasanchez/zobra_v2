@@ -5,6 +5,7 @@ import ProductList from "../components/ProductList";
 import PageSectionWithCard from "../components/PageSectionWithCard";
 import PageHeader from "../components/PageHeader";
 import PageSection from "../components/PageSection";
+import Divider from "../components/Divider";
 
 export function Product() {
   
@@ -19,9 +20,10 @@ export function Product() {
     <>
         <PageHeader />  
         <main> 
+          <Divider />
           <section className="page-section flex flex-col md:flex-row gap-y-4">
             <div className="md:w-6/12">
-              <img src={product && product.img} className="w-44 mx-auto"/>
+              <img src={product && product.img} className="w-32 md:w-44 mx-auto"/>
             </div>
             <div className="md:w-6/12">
               <p className='text-yellow-600 uppercase font-bold'>{product && product.year}</p>
